@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="Jayanthis-MacBook-Pro.local" name="com.myretail.domain.ProductSpec" tests="1" time="0.145" timestamp="2016-05-13T04:36:15">
+  <properties />
+  <testcase classname="com.myretail.domain.ProductSpec" name="test a valid Product object can be created" time="0.12" />
+  <system-out><![CDATA[--Output from test a valid Product object can be created--
+]]></system-out>
+  <system-err><![CDATA[--Output from test a valid Product object can be created--
+]]></system-err>
+</testsuite>

@@ -5,9 +5,7 @@ import com.myretail.domain.Product;
 import grails.test.mixin.TestFor
 import spock.lang.Specification
 
-/**
- * See the API for {@link grails.test.mixin.domain.DomainClassUnitTestMixin} for usage instructions
- */
+
 @TestFor(Product)
 class ProductSpec extends Specification {
 
@@ -16,11 +14,13 @@ class ProductSpec extends Specification {
 			Product product = new Product(
 				sku: "AEX143",
 				category: "Toys",
-				name: "Stroller")	 
+				name: "Stroller",
+				price: new Price(price : 199.99)
+				)	 
 			
-		when: "Validate a product creation"
+		when: "all required attributes are set"
 			 Boolean isValid = product.validate()
-		then: "is valid"
+		then: "product is valid"
 			isValid
     }
 }

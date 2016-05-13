@@ -1,0 +1,16 @@
+Testsuite: com.myretail.service.ProductServiceSpec
+Tests run: 3, Failures: 0, Errors: 0, Time elapsed: 0.933 sec
+------------- Standard Output ---------------
+--Output from test getProductInfoById returns product info for the given product id--
+--Output from test getAllProductsInfo returns all products info--
+--Output from test getProductInfoByCategory returns all products info for the given category--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from test getProductInfoById returns product info for the given product id--
+--Output from test getAllProductsInfo returns all products info--
+--Output from test getProductInfoByCategory returns all products info for the given category--
+------------- ---------------- ---------------
+
+Testcase: test getProductInfoById returns product info for the given product id took 0.728 sec
+Testcase: test getAllProductsInfo returns all products info took 0.098 sec
+Testcase: test getProductInfoByCategory returns all products info for the given category took 0.093 sec

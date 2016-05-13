@@ -1,0 +1,19 @@
+Testsuite: com.myretail.controller.ProductControllerSpec
+Tests run: 4, Failures: 0, Errors: 0, Time elapsed: 6.289 sec
+------------- Standard Output ---------------
+--Output from validate show method retrieves product by given id--
+--Output from test the show method returns an error response when the parameters are incorrect--
+--Output from verify that a list of all products is returned as a JSON when productList is requested--
+--Output from test that list of all products by the given category is returned as a JSON--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from validate show method retrieves product by given id--
+--Output from test the show method returns an error response when the parameters are incorrect--
+--Output from verify that a list of all products is returned as a JSON when productList is requested--
+--Output from test that list of all products by the given category is returned as a JSON--
+------------- ---------------- ---------------
+
+Testcase: validate show method retrieves product by given id took 5.903 sec
+Testcase: test the show method returns an error response when the parameters are incorrect took 0.149 sec
+Testcase: verify that a list of all products is returned as a JSON when productList is requested took 0.062 sec
+Testcase: test that list of all products by the given category is returned as a JSON took 0.076 sec

@@ -1,0 +1,10 @@
+Testsuite: com.myretail.domain.PriceSpec
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.206 sec
+------------- Standard Output ---------------
+--Output from test a valid Price object can be created--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from test a valid Price object can be created--
+------------- ---------------- ---------------
+
+Testcase: test a valid Price object can be created took 0.191 sec

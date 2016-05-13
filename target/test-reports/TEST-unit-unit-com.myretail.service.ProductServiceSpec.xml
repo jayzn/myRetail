@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="Jayanthis-MacBook-Pro.local" name="com.myretail.service.ProductServiceSpec" tests="3" time="0.933" timestamp="2016-05-13T04:36:15">
+  <properties />
+  <testcase classname="com.myretail.service.ProductServiceSpec" name="test getProductInfoById returns product info for the given product id" time="0.728" />
+  <testcase classname="com.myretail.service.ProductServiceSpec" name="test getAllProductsInfo returns all products info" time="0.098" />
+  <testcase classname="com.myretail.service.ProductServiceSpec" name="test getProductInfoByCategory returns all products info for the given category" time="0.093" />
+  <system-out><![CDATA[--Output from test getProductInfoById returns product info for the given product id--
+--Output from test getAllProductsInfo returns all products info--
+--Output from test getProductInfoByCategory returns all products info for the given category--
+]]></system-out>
+  <system-err><![CDATA[--Output from test getProductInfoById returns product info for the given product id--
+--Output from test getAllProductsInfo returns all products info--
+--Output from test getProductInfoByCategory returns all products info for the given category--
+]]></system-err>
+</testsuite>

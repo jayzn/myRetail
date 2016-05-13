@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="Jayanthis-MacBook-Pro.local" name="com.myretail.controller.ProductControllerIntegrationSpec" tests="3" time="0.454" timestamp="2016-05-13T04:36:28">
+  <properties />
+  <testcase classname="com.myretail.controller.ProductControllerIntegrationSpec" name="test product by given id is returned when requested" time="0.3" />
+  <testcase classname="com.myretail.controller.ProductControllerIntegrationSpec" name="test list of all products is returned when productList is requested" time="0.105" />
+  <testcase classname="com.myretail.controller.ProductControllerIntegrationSpec" name="test list of all products by given category is returned when productList is requested by category" time="0.049" />
+  <system-out><![CDATA[--Output from test product by given id is returned when requested--
+--Output from test list of all products is returned when productList is requested--
+--Output from test list of all products by given category is returned when productList is requested by category--
+]]></system-out>
+  <system-err><![CDATA[--Output from test product by given id is returned when requested--
+--Output from test list of all products is returned when productList is requested--
+--Output from test list of all products by given category is returned when productList is requested by category--
+]]></system-err>
+</testsuite>

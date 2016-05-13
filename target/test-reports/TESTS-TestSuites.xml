@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="0" hostname="Jayanthis-MacBook-Pro.local" id="0" name="ProductControllerIntegrationSpec" package="com.myretail.controller" tests="3" time="0.454" timestamp="2016-05-13T04:36:28">
+      <properties />
+
+      <testcase classname="com.myretail.controller.ProductControllerIntegrationSpec" name="test product by given id is returned when requested" time="0.3" />
+
+      <testcase classname="com.myretail.controller.ProductControllerIntegrationSpec" name="test list of all products is returned when productList is requested" time="0.105" />
+
+      <testcase classname="com.myretail.controller.ProductControllerIntegrationSpec" name="test list of all products by given category is returned when productList is requested by category" time="0.049" />
+
+      <system-out><![CDATA[--Output from test product by given id is returned when requested--
+--Output from test list of all products is returned when productList is requested--
+--Output from test list of all products by given category is returned when productList is requested by category--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from test product by given id is returned when requested--
+--Output from test list of all products is returned when productList is requested--
+--Output from test list of all products by given category is returned when productList is requested by category--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="Jayanthis-MacBook-Pro.local" id="1" name="ProductControllerSpec" package="com.myretail.controller" tests="4" time="6.289" timestamp="2016-05-13T04:36:09">
+      <properties />
+
+      <testcase classname="com.myretail.controller.ProductControllerSpec" name="validate show method retrieves product by given id" time="5.903" />
+
+      <testcase classname="com.myretail.controller.ProductControllerSpec" name="test the show method returns an error response when the parameters are incorrect" time="0.149" />
+
+      <testcase classname="com.myretail.controller.ProductControllerSpec" name="verify that a list of all products is returned as a JSON when productList is requested" time="0.062" />
+
+      <testcase classname="com.myretail.controller.ProductControllerSpec" name="test that list of all products by the given category is returned as a JSON" time="0.075" />
+
+      <system-out><![CDATA[--Output from validate show method retrieves product by given id--
+--Output from test the show method returns an error response when the parameters are incorrect--
+--Output from verify that a list of all products is returned as a JSON when productList is requested--
+--Output from test that list of all products by the given category is returned as a JSON--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from validate show method retrieves product by given id--
+--Output from test the show method returns an error response when the parameters are incorrect--
+--Output from verify that a list of all products is returned as a JSON when productList is requested--
+--Output from test that list of all products by the given category is returned as a JSON--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="Jayanthis-MacBook-Pro.local" id="2" name="PriceSpec" package="com.myretail.domain" tests="1" time="0.206" timestamp="2016-05-13T04:36:15">
+      <properties />
+
+      <testcase classname="com.myretail.domain.PriceSpec" name="test a valid Price object can be created" time="0.191" />
+
+      <system-out><![CDATA[--Output from test a valid Price object can be created--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from test a valid Price object can be created--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="Jayanthis-MacBook-Pro.local" id="3" name="ProductSpec" package="com.myretail.domain" tests="1" time="0.145" timestamp="2016-05-13T04:36:15">
+      <properties />
+
+      <testcase classname="com.myretail.domain.ProductSpec" name="test a valid Product object can be created" time="0.12" />
+
+      <system-out><![CDATA[--Output from test a valid Product object can be created--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from test a valid Product object can be created--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="Jayanthis-MacBook-Pro.local" id="4" name="ProductServiceSpec" package="com.myretail.service" tests="3" time="0.933" timestamp="2016-05-13T04:36:15">
+      <properties />
+
+      <testcase classname="com.myretail.service.ProductServiceSpec" name="test getProductInfoById returns product info for the given product id" time="0.728" />
+
+      <testcase classname="com.myretail.service.ProductServiceSpec" name="test getAllProductsInfo returns all products info" time="0.098" />
+
+      <testcase classname="com.myretail.service.ProductServiceSpec" name="test getProductInfoByCategory returns all products info for the given category" time="0.093" />
+
+      <system-out><![CDATA[--Output from test getProductInfoById returns product info for the given product id--
+--Output from test getAllProductsInfo returns all products info--
+--Output from test getProductInfoByCategory returns all products info for the given category--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from test getProductInfoById returns product info for the given product id--
+--Output from test getAllProductsInfo returns all products info--
+--Output from test getProductInfoByCategory returns all products info for the given category--
+]]></system-err>
+
+  </testsuite>
+</testsuites>

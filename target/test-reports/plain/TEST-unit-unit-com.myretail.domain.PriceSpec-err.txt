@@ -1,0 +1,1 @@
+--Output from test a valid Price object can be created--

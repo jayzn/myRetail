@@ -1,6 +1,6 @@
 package com.myretail.domain
 
 class Price {
-	Product product
-	Float price
+	Double price
+	static belongsTo = [product : Product]
 }

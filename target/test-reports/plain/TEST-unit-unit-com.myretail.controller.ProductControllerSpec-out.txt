@@ -1,0 +1,4 @@
+--Output from validate show method retrieves product by given id--
+--Output from test the show method returns an error response when the parameters are incorrect--
+--Output from verify that a list of all products is returned as a JSON when productList is requested--
+--Output from test that list of all products by the given category is returned as a JSON--

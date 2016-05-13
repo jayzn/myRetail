@@ -1,0 +1,3 @@
+--Output from test product by given id is returned when requested--
+--Output from test list of all products is returned when productList is requested--
+--Output from test list of all products by given category is returned when productList is requested by category--

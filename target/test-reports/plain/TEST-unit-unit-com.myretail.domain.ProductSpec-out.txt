@@ -1,0 +1,1 @@
+--Output from test a valid Product object can be created--

@@ -1,0 +1,10 @@
+Testsuite: com.myretail.domain.ProductSpec
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.145 sec
+------------- Standard Output ---------------
+--Output from test a valid Product object can be created--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from test a valid Product object can be created--
+------------- ---------------- ---------------
+
+Testcase: test a valid Product object can be created took 0.12 sec

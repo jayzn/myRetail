@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="Jayanthis-MacBook-Pro.local" name="com.myretail.controller.ProductControllerSpec" tests="4" time="6.289" timestamp="2016-05-13T04:36:09">
+  <properties />
+  <testcase classname="com.myretail.controller.ProductControllerSpec" name="validate show method retrieves product by given id" time="5.903" />
+  <testcase classname="com.myretail.controller.ProductControllerSpec" name="test the show method returns an error response when the parameters are incorrect" time="0.149" />
+  <testcase classname="com.myretail.controller.ProductControllerSpec" name="verify that a list of all products is returned as a JSON when productList is requested" time="0.062" />
+  <testcase classname="com.myretail.controller.ProductControllerSpec" name="test that list of all products by the given category is returned as a JSON" time="0.075" />
+  <system-out><![CDATA[--Output from validate show method retrieves product by given id--
+--Output from test the show method returns an error response when the parameters are incorrect--
+--Output from verify that a list of all products is returned as a JSON when productList is requested--
+--Output from test that list of all products by the given category is returned as a JSON--
+]]></system-out>
+  <system-err><![CDATA[--Output from validate show method retrieves product by given id--
+--Output from test the show method returns an error response when the parameters are incorrect--
+--Output from verify that a list of all products is returned as a JSON when productList is requested--
+--Output from test that list of all products by the given category is returned as a JSON--
+]]></system-err>
+</testsuite>

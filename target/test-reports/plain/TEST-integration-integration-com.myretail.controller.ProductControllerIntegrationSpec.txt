@@ -1,0 +1,16 @@
+Testsuite: com.myretail.controller.ProductControllerIntegrationSpec
+Tests run: 3, Failures: 0, Errors: 0, Time elapsed: 0.454 sec
+------------- Standard Output ---------------
+--Output from test product by given id is returned when requested--
+--Output from test list of all products is returned when productList is requested--
+--Output from test list of all products by given category is returned when productList is requested by category--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from test product by given id is returned when requested--
+--Output from test list of all products is returned when productList is requested--
+--Output from test list of all products by given category is returned when productList is requested by category--
+------------- ---------------- ---------------
+
+Testcase: test product by given id is returned when requested took 0.3 sec
+Testcase: test list of all products is returned when productList is requested took 0.105 sec
+Testcase: test list of all products by given category is returned when productList is requested by category took 0.049 sec

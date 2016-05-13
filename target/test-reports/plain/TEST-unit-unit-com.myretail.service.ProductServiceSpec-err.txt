@@ -1,0 +1,3 @@
+--Output from test getProductInfoById returns product info for the given product id--
+--Output from test getAllProductsInfo returns all products info--
+--Output from test getProductInfoByCategory returns all products info for the given category--

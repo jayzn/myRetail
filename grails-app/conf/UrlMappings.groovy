@@ -10,6 +10,9 @@ class UrlMappings {
         "/"(view:"/index")
         "500"(view:'/error')
 		
-		"/product"(controller: "product", action: "show")
+		"/product/$id"(controller: "product", action: "show")
+		"/productList"(controller: "product", action: "list")
+		"/productList/$cat"(controller: "product", action: "list")
+		
 	}
 }
